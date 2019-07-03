@@ -1,0 +1,12 @@
+struct Bot [
+    name: string
+    make: number
+]
+
+foo = Bot[
+    name = 'fooBot'
+    make = 123
+]
+
+print foo.name
+print foo.make
